@@ -57,6 +57,7 @@ const Auth: React.FC = () => {
 				value={credential.username}
 				onChange={handleInputChange}
 			/>
+			<br />
 			<TextField
 				InputLabelProps={{
 					shrink: true,
