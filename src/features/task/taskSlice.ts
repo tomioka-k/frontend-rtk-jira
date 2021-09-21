@@ -113,7 +113,7 @@ export const fetchAsyncDeleteTask = createAsyncThunk(
 	}
 );
 
-const initialState: TASK_STATE = {
+export const initialState: TASK_STATE = {
 	tasks: [
 		{
 			id: 0,
