@@ -1,8 +1,6 @@
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import axios from "axios";
-import { profile } from "console";
-import { create } from "domain";
-import { RootState, AppThunk } from "../../app/store";
+import { RootState } from "../../app/store";
 import {
 	AUTH_STATE,
 	CRED,
